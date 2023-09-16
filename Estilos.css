@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background-color: #f6ede5;
+    
+}
+.container{
+    width: 500px;
+    margin: 0 auto;
+  
+   }
+section article{
+
+    background-color: white;
+    margin: 1rem 0;
+
+    padding: 30px 30px 10px 35px;
+
+}
+.row {
+    display: flex; 
+    margin-bottom: 10px; 
+}
+
+.input {
+    height: 30px;
+    width: 200px; 
+    margin-right: 10px; 
+    margin-bottom: 0px; 
+}
+section article div,section article textarea,section article button{
+
+margin: 1rem;
+
+
+}
+textarea{
+    width: 390px;
+    height: 100px;
+}
+
+.boton{
+
+    
+    background-color: #ff4d54;
+    border: 0px;
+    color: white;
+    width: 70px;
+    height: 35px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+section article button{
+
+    margin-top: 5px;
+}

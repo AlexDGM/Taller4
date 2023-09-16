@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo3.css">
+    <title>“Ejemplo Formulario # 3"</title>
+</head>
+
+<body>
+    <form action="">
+
+        <section class="box">
+
+            <div class="a">
+
+                Account Type:<input type="radio" name="Account Type">Individual<br><input type="radio"
+                    name="Account Type">Entity
+
+            </div>
+
+            First Name: <input type="text" pattern="(Mr|Ms|Mrs) [A-z]* [A-z]*" required> <br>
+            Middle Name or Initial: <input type="text" pattern="[A-Z]{1}[a-z]{1}" required> <br>
+
+            Last Name: <input type="text" pattern="(Mr|Ms|Mrs) [A-Za-z]+( [A-Za-z]+){1,3}" required> <br>
+
+            <div class="S"> Suffix: <select name=" " id="" class="sufy">
+            </div>
+
+            <option value="">--</option>
+
+            <option value="">Mr</option>
+
+            <option value="">Mrs</option>
+
+            <option value="">Ms</option>
+
+
+
+            </select> <br>
+
+            <div class="T">Taxpayer Identification Number: <input type="text" class="Tax" min="1" min="12" required>-
+                <input type="text" class="Tax" min="1" min="31" required>- <input type="text" class="Tax" min="2000"
+                    required> <br>
+            </div>
+            <Div class="D"> Date of Birth: <input type="text" class="Date" min="1" min="12" required>- <input
+                    type="text" class="Date" min="1" min="31" required>- <input type="text" class="Date" min="2000"
+                    required> (MM-DD-YYYY) <br>
+            </Div>
+            Street Address: <input type="text"><br><input type="text"><br><input type="text"> <br> 
+
+            City: <input type="text"> <br>
+
+            State: <select required style="width: 154px;">
+                <option value="Opcion 1">- -</option>
+                <option value="Opcion 2">Amazonas</option>
+                <option value="Opcion 3">Antioquia</option>
+                <option value="Opcion 4">Arauca</option>
+                <option value="Opcion 5">Atlántico</option>
+                <option value="Opcion 6">Bogotá</option>
+                <option value="Opcion 7">Bolivar</option>
+                <option value="Opcion 8">Boyaca</option>
+                <option value="Opcion 9">Caldas</option>
+                <option value="Opcion 10">Caqueta</option>
+                <option value="Opcion 11">Casanare</option>
+                <option value="Opcion 12">Cauca</option>
+                <option value="Opcion 13">Cesar</option>
+                <option value="Opcion 14">Chocó</option>
+                <option value="Opcion 15">Córdoba</option>
+                <option value="Opcion 16">Cundinamarca</option>
+                <option value="Opcion 17">Guainía</option>
+                <option value="Opcion 18">Guaviare</option>
+                <option value="Opcion 19">Huila</option>
+                <option value="Opcion 20">La Guajira</option>
+                <option value="Opcion 21">Magdalena</option>
+                <option value="Opcion 22">Meta</option>
+                <option value="Opcion 23">Nariño</option>
+                <option value="Opcion 24">Norte de santander</option>
+                <option value="Opcion 25">Putumayo</option>
+                <option value="Opcion 26">Quindío</option>
+                <option value="Opcion 27">Risaralda</option>
+                <option value="Opcion 28">San Andrés y Providencia</option>
+                <option value="Opcion 29">Santander</option>
+                <option value="Opcion 30">Sucre</option>
+                <option value="Opcion 31">Tolima</option>
+                <option value="Opcion 32">Valle del Cauca</option>
+                <option value="Opcion 33">Vaupés</option>
+                <option value="Opcion 34">Vichada</option>
+
+            </select>    
+
+            <br>
+            <div class="Zip">
+                Zip Code: <input type="text" class="dos" pattern="^\d{6}" required> - <input type="text" class="dos"
+                    pattern="(\d{4})?$" required> <br></div>
+
+            <div class="H">
+                Home Phone: (<input type="text" class="tres" pattern="\+\d{2}" required>) <input type="text"
+                    class="tres" pattern="\d{3}" required> - <input type="text" class="tres" pattern="\d{7}"
+                    required><br>
+            </div>
+
+
+            <div class="dri">
+
+                Driver's License / State ID Number: <input type="text" class="se" pattern="(D)\d+" required></div>
+            <div class="Iss">
+                Issuing State: <select name=" " id="" class="sel"></div>
+
+
+            <option value="">--</option>
+
+            <option value="">Brazil</option>
+
+            <option value="">Colombia</option>
+
+            <option value="">Argentina</option>
+
+            <option value="">Tarjeta de identidad</option>
+
+            </select>
+            <br>
+
+            <div class="x">
+                Expiration Date: <input type="text" class="cu" min="1" min="12" required>- <input type="text" class="cu"
+                    min="1" min="31" required>- <input type="text" class="cu" min="2000" required> (MM-DD-YYYY) <br>
+
+            </div>
+
+            <input type="submit">
+        </section>
+
+
+    </form>
+
+
+</body>
+
+</html>

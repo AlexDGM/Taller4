@@ -1,0 +1,79 @@
+.container {
+    width: 1000px;
+   
+    padding-right: 0px;
+    margin-right: 200px;
+
+}
+
+input,
+select {
+
+    margin-bottom: 10px;
+
+
+}
+
+.se {
+
+    padding-left: 30px;
+}
+
+.Derecha {
+    text-align: right;
+   
+    width: 300px;
+    margin-right: 300px;
+
+}
+
+.Izquierda {
+
+    text-align: left;
+
+
+}
+
+.Sex,
+p {
+    margin-left: 101px;
+    display: inline;
+}
+
+.Lenguaje {
+    margin-left: 67px;
+    display: inline;
+
+}
+
+.s {
+    
+    margin-left: 87px;
+    
+}
+textarea{
+
+
+
+    
+}
+
+label{
+
+margin-left: 85px;
+
+
+}
+
+
+.about{
+
+margin-left: 87px;
+
+}
+
+.sub{
+margin-top:  10px;
+margin-left: 200px;
+
+}

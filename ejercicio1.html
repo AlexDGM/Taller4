@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <title>Ejemplo Formulario # 1"</title>
+</head>
+
+<body>
+<form action="">
+    <section class="container">
+    <article> 
+        <div class="row">
+
+            <input class="input" type="text" placeholder="NAME" pattern="[A-Za-z\s]{0,60}" maxlength="60" required>
+            <input class="input" type="text" placeholder="COMPANY" pattern="[A-Za-z\s]{0,30}" maxlength="30" required>
+
+        </div>
+        <div class="row">
+
+            <input type="text" class="input" placeholder="TELEPHONE" pattern="\+\d{2}-\d{3}-\d{9}" required>
+            <input type="text" class="input" placeholder="EMAIL" pattern="^[A-Za-z0-9]+@gmail\.com$" required>
+
+        </div>
+
+        <textarea cols="30" rows="3" placeholder="LEAVE A MESSAGE"></textarea>
+        
+        <br>
+
+        <input type="submit" value="SEND" class="boton">
+    </article>
+
+
+    </section>
+
+
+</form>
+
+
+</body>
+
+</html>
